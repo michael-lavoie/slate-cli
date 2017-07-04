@@ -37,7 +37,7 @@ export default function(program) {
       }
 
       const workingDirectory = process.cwd();
-      const s3Url = 'https://sdks.shopifycdn.com/slate/latest/slate-src.zip';
+      const s3Url = 'https://cdn.shopify.com/s/files/1/1577/8185/files/Archive.zip?11077471492920165452';
       const root = join(workingDirectory, dirName);
 
       if (existsSync(root)) {
